@@ -2,11 +2,12 @@ body{
     box-sizing: border-box;
     background-color: #0B2434;
     padding: 20px;
+    font-family: 'Karla', sans-serif;
 }
 
 main{
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     background-color: #F5F5F5;
     border-radius: 5px;
     display: flex;
@@ -39,7 +40,7 @@ main{
 
 .roll-dice{
     height: 50px;
-    width: 100px;
+    width: 150px;
     border: 0px;
     border-radius: 5px;
     background-color: #5035FF;
@@ -47,4 +48,20 @@ main{
     font-size: 1.2rem;
     font-weight: 700;
     cursor: pointer;
+}
+
+
+.title {
+    font-family: 'Karla', sans-serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+.instructions {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 18px;
+    max-width: 400px;
+    text-align: center;
 }
